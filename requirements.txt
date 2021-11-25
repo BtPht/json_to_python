@@ -1,0 +1,4 @@
+attrs==21.2.0
+black==21.10b0
+pytest==6.2.5
+hypothesis==6.24.1

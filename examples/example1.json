@@ -1,0 +1,15 @@
+{
+  "first_name": "bertrand",
+  "age": 99,
+  "height": 2.71,
+  "address": {
+    "street": "Champs Élysées",
+    "postal_code": "01234",
+    "city": "London"
+  },
+  "friends": [
+    "Bob",
+    "Alice",
+    "Björn"
+  ]
+}
