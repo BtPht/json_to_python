@@ -1,8 +1,10 @@
-from pprint import pprint
-from hypothesis import given, strategies as st
 import string
-from main import FullMapping
+from pprint import pprint
 
+from hypothesis import given
+from hypothesis import strategies as st
+
+from main import FullMapping
 
 string_strategy = st.text(
     min_size=1,
