@@ -8,8 +8,8 @@
     "city": "London"
   },
   "friends": [
-    "Bob",
     "Alice",
-    "Björn"
+    "Bob",
+    "Carl"
   ]
 }
