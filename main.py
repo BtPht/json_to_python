@@ -1,8 +1,7 @@
 import json
 
-from parser import FullMapping
 from formaters import AttrsFormater
-
+from json_parser import FullMapping
 
 if __name__ == "__main__":
     with open("examples/example3.json") as f:

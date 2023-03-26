@@ -1,6 +1,6 @@
 import abc
 
-from parser import FullMapping, SimpleClass, SimpleAttribute
+from json_parser import FullMapping, SimpleAttribute, SimpleClass
 
 try:
     from black import Mode, format_str
