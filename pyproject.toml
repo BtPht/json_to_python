@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "json-to-python"
+version = "0.1.0"
+description = "Generate dataclasses or serializers out of any JSON file"
+authors = ["Bertrand Pechenot <bertrand.pechenot@gmail.com>"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "json_to_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+attrs=">=22.2.0"
+black=">=22.12.0"
+pytest=">=7.2.0"
+hypothesis=">=6.61.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
